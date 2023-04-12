@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(153,218,201);
+}
+
+
+#water-bill{
+    position:relative;
+    margin-top: 50px;
+
+    
+   
+}
+
+#price{
+     background-color:white; 
+    width:200px;
+    height:200px;
+    border-radius: 40px;
+    position:relative;
+    margin-left:8px;
+    
+
+}
+
+#stroke{
+    width:300px;
+    position: relative;
+}
+path{
+    fill:none;
+    stroke:#2086A5;
+    stroke-width:3px;
+    stroke-dasharray: 310;
+   
+}
+#know-your-bill{
+    margin-left:5px;
+    margin-top:20px;
+    width:300px;
+}
+#price{
+    margin-top:30px;
+}
+
+svg{
+    margin-top: -100px;
+    padding-top: -100px;
+    position: relative;
+    margin-left:28px;
+}
+#number{
+    padding-left:50px;
+    margin-bottom: px;
+}
+#btn-bill-div{
+    
+    position:relative;
+    align-items: center;
+    margin-left:50px;
+    margin-top: 50px;
+   
+}
+#btn-bill{
+    background-color:rgb(32, 134,165);
+    color:white;
+    border-radius: 20px;
+    height:40px;
+    width:100px
+}
+
+
+
+/* MEDIA QUERRIES ABOUT WATER BILL SECTION */
