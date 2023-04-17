@@ -8,6 +8,7 @@ body{
     background-color:rgb(153,218,201);
 }
 #know-your-bill{
+    
     margin-left:100px;
     margin-top:20px;
     width:300px;
@@ -16,7 +17,7 @@ body{
 #water-bill{
     position:relative;
     margin-top: 50px;
-    margin-left:90px ;
+    padding-left:100px ;
     
 }
 
@@ -28,7 +29,6 @@ body{
     position:relative;
     margin-left:8px;
     
-
 }
 
 #stroke{
@@ -86,3 +86,13 @@ svg{
 
 
 /* MEDIA QUERRIES ABOUT WATER BILL SECTION */
+/* @media only screen and (min-width: 768px) {
+    #know-your-bill{
+    
+        margin-left:300px;
+        margin-top:20px;
+        width:800px;
+        font-size: 30px;
+    }
+    
+  } */
