@@ -29,8 +29,27 @@
             </div>
         </div>
         <div>
-            <button id="calculate">CALCULATE</button>
+            <a href="/Keynes-Project/My-Project/project-HTML/WATER-page3.html">
+                <button id="calculate">CALCULATE</button>
+            </a>
+            
         </div>
-    </div>  
+    </div>
+    <script>
+        const form=document.getElementById("form-content-1");
+        const inputField=document.getElementById("text-input");
+        const MeterValue=inputField.value;
+        console.log(MeterValue);
+
+        const calculateBtn = document.getElementById("calculate");
+
+        calculateBtn.addEventListener("click", function() {
+            const inputField = document.getElementById("text-input");
+            const meterValue = inputField.value;
+            console.log(meterValue);
+        });
+    </script>
+    
+
 </body>
 </html>
